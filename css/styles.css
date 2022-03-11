@@ -96,3 +96,10 @@ p{
   opacity: .5;
   color: white;
 }
+
+.section-6 button{
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-bottom: 4em;
+}
