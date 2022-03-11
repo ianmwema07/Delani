@@ -80,7 +80,7 @@ p{
 }
 
 .section-6 .heading{
-  padding-left: 2em;
+  padding-bottom: 2em;
 }
 
 .section-6 input{
@@ -102,4 +102,13 @@ p{
   border: 2px solid white;
   border-radius: 4px;
   margin-bottom: 4em;
+  padding-top: 1em;
+}
+
+.social-icons{
+  padding-top: 2em;
+}
+
+.copyright{
+  padding-top: 1em;
 }
