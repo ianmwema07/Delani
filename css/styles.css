@@ -6,6 +6,11 @@ body{
   align-content: center;
 }
 
+p{
+  font-size: medium;
+  font-weight: 500;
+}
+
 .section-1{
   background-image: url("/img/backgrounds/h_img.jpg ");
   background-size: 100%;
@@ -36,4 +41,74 @@ body{
 .section-2{
   margin-top: 50px;
   line-height: 2.0;
+}
+
+.section-2 .heading{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.section-3{
+  background-image: url("/img/backgrounds/s_image.jpg");
+  background-size: 100% 20em;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.section-3 .container{
+  padding-top:3em;
+  padding-bottom:3em;
+}
+.services-heading {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
+.section-4 .heading h3{
+  padding-top: 2em;
+}
+.section-4 .row{
+  padding-top: 2em;
+  padding-bottom: 2em ;
+}
+
+.section-6{
+  background-image: url("/img/backgrounds/c_image.jpg");
+  color: #ffffff;
+  padding-top: 3em;
+
+}
+
+.section-6 .heading{
+  padding-bottom: 2em;
+}
+
+.section-6 input{
+  border: 2px solid white;
+  border-radius: 4px;
+  opacity: .5;
+  color: white;
+}
+
+.section-6 textarea{
+  border: 2px solid white;
+  border-radius: 4px;
+  opacity: .5;
+  color: white;
+}
+
+.section-6 button{
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-bottom: 4em;
+  padding-top: 1em;
+}
+
+.social-icons{
+  padding-top: 2em;
+}
+
+.copyright{
+  padding-top: 1em;
 }
