@@ -64,3 +64,10 @@ p{
 }
 
 
+.section-4 .heading h3{
+  padding-top: 2em;
+}
+.section-4 .row{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
