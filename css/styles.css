@@ -164,6 +164,17 @@ input[type="text"]::placeholder {
   opacity: 1; /* Firefox */
 }
 
+input[type="email"]::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+
+#inputMessage::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
 .section-6 input[type="submit"]{
   border: 2px solid white;
   border-radius: 4px;
@@ -173,9 +184,8 @@ input[type="text"]::placeholder {
 }
 
 .section-6 textarea{
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 4px;
-  opacity: .5;
   color: white;
 }
 
