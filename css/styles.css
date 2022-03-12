@@ -140,16 +140,34 @@ p{
 .section-6 .heading{
   padding-bottom: 2em;
 }
-
-.section-6 input{
+.section-6 input[type="text"]{
   border: 2px solid white;
   border-radius: 4px;
-  opacity: .5;
+  background:transparent;
+  color: white;
 }
+.section-6 textarea{
+  border: 2px solid white;
+  border-radius: 4px;
+  background:transparent;
+  color: white;
+}
+.section-6 input[type="email"]{
+  border: 2px solid white;
+  border-radius: 4px;
+  background:transparent;
+  color: white;
+}
+
+input[type="text"]::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
 .section-6 input[type="submit"]{
   border: 2px solid white;
   border-radius: 4px;
-  opacity: .5;
+  background: transparent;
   margin-bottom: 20px;
   color: black;
 }
