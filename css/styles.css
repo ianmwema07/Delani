@@ -63,6 +63,20 @@ p{
   margin-bottom: 2em;
 }
 
+.design-show{
+  display: none ;
+}
+
+.development-show{
+  display: none;
+}
+
+.product-show{
+  display: none;
+}
+
+
+
 
 .section-4 .heading h3{
   padding-top: 2em;
