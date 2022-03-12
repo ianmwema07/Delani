@@ -24,4 +24,21 @@
         $(".product-hidden").fadeToggle();
         $(".product-show").fadeToggle();
       });
+
     });
+
+    function getMessage() {
+      let inputName = document.getElementById("inputName").value;
+      let inputEmail = document.getElementById("inputEmail").value;
+      let inputMessage = document.getElementById("inputMessage").value;
+
+      if( inputName.length == 0 || inputEmail.length == 0 || inputMessage.length == 0 ){
+        alert("Kindly input your details");
+      }
+      else{
+        alert("Hello "+inputName+" Your message has been sent successfully");
+      }
+    }
+
+    
+   
