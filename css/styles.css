@@ -12,7 +12,7 @@ p{
 }
 
 .section-1{
-  background-image: url("/img/backgrounds/h_img.jpg ");
+  background-image: url(/img/backgrounds/h_img.jpg );
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: fixed;
