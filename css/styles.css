@@ -11,7 +11,7 @@ p{
   font-weight: 500;
 }
 
-.section-1{
+/* .section-1{
   background-image: url(/img/backgrounds/h_img.jpg );
   background-size: 100%;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ p{
   text-align: center;
   align-content: center;
   color: #ffffff;
-}
+} */
 
 .logo{
   margin-top:13em;
