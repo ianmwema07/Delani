@@ -141,19 +141,19 @@ p{
   padding-bottom: 2em;
 }
 .section-6 input[type="text"]{
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 4px;
   background:transparent;
   color: white;
 }
 .section-6 textarea{
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 4px;
   background:transparent;
   color: white;
 }
 .section-6 input[type="email"]{
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 4px;
   background:transparent;
   color: white;
@@ -176,7 +176,7 @@ input[type="email"]::placeholder {
 }
 
 .section-6 input[type="submit"]{
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 4px;
   background: transparent;
   margin-bottom: 20px;
@@ -191,7 +191,7 @@ input[type="email"]::placeholder {
 
 .section-6 button{
   color: #ffffff;
-  border: 2px solid ;
+  border: 1px solid ;
   border-radius: 4px;
   margin-bottom: 4em;
   padding-top: 1em;
