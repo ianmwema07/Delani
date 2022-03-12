@@ -132,6 +132,8 @@ p{
 
 .section-6{
   background-image: url("/img/backgrounds/c_image.jpg");
+  background-size: 100%;
+  background-repeat: none;
   color: #ffffff;
   padding-top: 3em;
 
