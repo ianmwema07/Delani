@@ -37,7 +37,25 @@ p{
   margin-bottom: 4em;
   width: 20px;
 }
-
+.stage {
+  
+  display: flex;
+ 
+}
+.box {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
 .section-2{
   margin-top: 50px;
   line-height: 2.0;
